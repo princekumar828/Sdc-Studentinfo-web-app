@@ -1,0 +1,27 @@
+[debug] [2024-03-09T05:50:14.734Z] ----------------------------------------------------------------------
+[debug] [2024-03-09T05:50:14.735Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2024-03-09T05:50:14.736Z] CLI Version:   13.4.1
+[debug] [2024-03-09T05:50:14.736Z] Platform:      darwin
+[debug] [2024-03-09T05:50:14.736Z] Node Version:  v20.11.1
+[debug] [2024-03-09T05:50:14.736Z] Time:          Sat Mar 09 2024 11:20:14 GMT+0530 (India Standard Time)
+[debug] [2024-03-09T05:50:14.736Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-09T05:50:14.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-09T05:50:14.773Z] > authorizing via signed-in user (bitlords88@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/shantanubasumatary/Desktop/hackathon
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2024-03-09T06:45:26.364Z] Error: read EIO
+    at TTY.onStreamRead (node:internal/stream_base_commons:217:20)
