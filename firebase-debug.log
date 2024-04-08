@@ -1,13 +1,13 @@
-[debug] [2024-03-09T05:50:14.734Z] ----------------------------------------------------------------------
-[debug] [2024-03-09T05:50:14.735Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
-[debug] [2024-03-09T05:50:14.736Z] CLI Version:   13.4.1
-[debug] [2024-03-09T05:50:14.736Z] Platform:      darwin
-[debug] [2024-03-09T05:50:14.736Z] Node Version:  v20.11.1
-[debug] [2024-03-09T05:50:14.736Z] Time:          Sat Mar 09 2024 11:20:14 GMT+0530 (India Standard Time)
-[debug] [2024-03-09T05:50:14.736Z] ----------------------------------------------------------------------
+[debug] [2024-04-08T18:20:19.821Z] ----------------------------------------------------------------------
+[debug] [2024-04-08T18:20:19.823Z] Command:       /opt/homebrew/Cellar/node/21.7.1/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-04-08T18:20:19.823Z] CLI Version:   13.7.1
+[debug] [2024-04-08T18:20:19.823Z] Platform:      darwin
+[debug] [2024-04-08T18:20:19.823Z] Node Version:  v21.7.1
+[debug] [2024-04-08T18:20:19.823Z] Time:          Mon Apr 08 2024 23:50:19 GMT+0530 (India Standard Time)
+[debug] [2024-04-08T18:20:19.823Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2024-03-09T05:50:14.772Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2024-03-09T05:50:14.773Z] > authorizing via signed-in user (bitlords88@gmail.com)
+[debug] [2024-04-08T18:20:19.855Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-08T18:20:19.855Z] > authorizing via signed-in user (kumarprince282002@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -17,11 +17,70 @@
 
 You're about to initialize a Firebase project in this directory:
 
-  /Users/shantanubasumatary/Desktop/hackathon
+  /Users/princekumar/SdcAdminUpdate/Sdc-Studentinfo-web-app
 
 Before we get started, keep in mind:
 
   * You are initializing within an existing Firebase project directory
 
-[debug] [2024-03-09T06:45:26.364Z] Error: read EIO
-    at TTY.onStreamRead (node:internal/stream_base_commons:217:20)
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-08T18:20:26.735Z] Using project from CLI flag: satarkapp-20461
+[debug] [2024-04-08T18:20:26.738Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/satarkapp-20461 [none]
+[debug] [2024-04-08T18:20:27.445Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/satarkapp-20461 403
+[debug] [2024-04-08T18:20:27.445Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/satarkapp-20461 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-08T18:20:27.446Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-08T18:20:27.564Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/opt/homebrew/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/opt/homebrew/lib/node_modules/firebase-tools/lib/apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project satarkapp-20461. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-04-08T18:57:17.507Z] ----------------------------------------------------------------------
+[debug] [2024-04-08T18:57:17.510Z] Command:       /opt/homebrew/Cellar/node/21.7.1/bin/node /opt/homebrew/bin/firebase init
+[debug] [2024-04-08T18:57:17.510Z] CLI Version:   13.7.1
+[debug] [2024-04-08T18:57:17.510Z] Platform:      darwin
+[debug] [2024-04-08T18:57:17.510Z] Node Version:  v21.7.1
+[debug] [2024-04-08T18:57:17.510Z] Time:          Tue Apr 09 2024 00:27:17 GMT+0530 (India Standard Time)
+[debug] [2024-04-08T18:57:17.510Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-08T18:57:17.543Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-08T18:57:17.543Z] > authorizing via signed-in user (kumarprince282002@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/princekumar/SdcAdminUpdate/Sdc-Studentinfo-web-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-08T18:57:23.776Z] Using project from CLI flag: satarkapp-20461
+[debug] [2024-04-08T18:57:23.778Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/satarkapp-20461 [none]
+[debug] [2024-04-08T18:57:24.255Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/satarkapp-20461 403
+[debug] [2024-04-08T18:57:24.255Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/satarkapp-20461 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-04-08T18:57:24.256Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-04-08T18:57:24.371Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/opt/homebrew/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/opt/homebrew/lib/node_modules/firebase-tools/lib/apiv2.js:299:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project satarkapp-20461. Please make sure the project exists and your account has permission to access it.
